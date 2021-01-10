@@ -1,0 +1,27 @@
+CRITICAL - 2021-01-04 22:30:46 --> Invalid file: Inicio/Incio.php
+#0 C:\wamp64\www\adminuns\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Inicio/Incio.ph...')
+#1 C:\wamp64\www\adminuns\system\Common.php(1119): CodeIgniter\View\View->render('Inicio/Incio', Array, true)
+#2 C:\wamp64\www\adminuns\app\Controllers\Inicio.php(7): view('Inicio/Incio')
+#3 C:\wamp64\www\adminuns\system\CodeIgniter.php(918): App\Controllers\Inicio->index()
+#4 C:\wamp64\www\adminuns\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\wamp64\www\adminuns\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminuns\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-04 22:37:45 --> Invalid file: Inicio/Incio.php
+#0 C:\wamp64\www\adminuns\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Inicio/Incio.ph...')
+#1 C:\wamp64\www\adminuns\system\Common.php(1119): CodeIgniter\View\View->render('Inicio/Incio', Array, true)
+#2 C:\wamp64\www\adminuns\app\Controllers\Inicio.php(7): view('Inicio/Incio')
+#3 C:\wamp64\www\adminuns\system\CodeIgniter.php(918): App\Controllers\Inicio->index()
+#4 C:\wamp64\www\adminuns\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\wamp64\www\adminuns\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminuns\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-04 22:38:11 --> Invalid file: Inicio/Incio.php
+#0 C:\wamp64\www\adminuns\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Inicio/Incio.ph...')
+#1 C:\wamp64\www\adminuns\system\Common.php(1119): CodeIgniter\View\View->render('Inicio/Incio', Array, true)
+#2 C:\wamp64\www\adminuns\app\Controllers\Inicio.php(7): view('Inicio/Incio')
+#3 C:\wamp64\www\adminuns\system\CodeIgniter.php(918): App\Controllers\Inicio->index()
+#4 C:\wamp64\www\adminuns\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\wamp64\www\adminuns\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\adminuns\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
