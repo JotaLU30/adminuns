@@ -89,6 +89,13 @@ class Admin extends BaseController
         echo view('Admin/modal');
         echo view('General/end');
     }
+
+    public function usuarios(){
+        echo view('General/header');
+        echo view('Admin/usuarios');
+        echo view('Admin/modal');
+        echo view('General/end');
+    }
 	//--------------------------------------------------------------------
 
 }
