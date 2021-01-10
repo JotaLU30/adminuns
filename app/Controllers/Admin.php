@@ -101,7 +101,7 @@ class Admin extends BaseController
     }
 
 
-    public function descargarpdf($text){
+    public function descargarpdf(){
                
 
         // instantiate and use the dompdf class
