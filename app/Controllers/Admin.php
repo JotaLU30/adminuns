@@ -1,8 +1,5 @@
 <?php namespace App\Controllers;
 
-use Dompdf\Dompdf;
-
-
 class Admin extends BaseController
 {
 	public function index()
@@ -91,31 +88,6 @@ class Admin extends BaseController
         echo view('Admin/alertas');
         echo view('Admin/modal');
         echo view('General/end');
-    }
-
-    public function usuarios(){
-        echo view('General/header');
-        echo view('Admin/usuarios');
-        echo view('Admin/modal');
-        echo view('General/end');
-    }
-
-
-    public function descargarpdf(){
-               
-
-        // instantiate and use the dompdf class
-        $dompdf = new Dompdf();
-        $dompdf->loadHtml('hello world');
-
-        // (Optional) Setup the paper size and orientation
-        $dompdf->setPaper('A4', 'landscape');
-
-        // Render the HTML as PDF
-        $dompdf->render();
-
-        // Output the generated PDF to Browser
-        $dompdf->stream();
     }
 	//--------------------------------------------------------------------
 
